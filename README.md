@@ -4,6 +4,7 @@ This is a simple web application to forecast weather of different cities of any 
 What is an API? 🤷🏼‍♂
 
 API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software.
+
 Know more https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces
 
 👩‍🏫 Instructions to use the API services -
