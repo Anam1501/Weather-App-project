@@ -13,7 +13,7 @@ Step 1: Enter the url: https://rapidapi.com in your browser.
 
 Step 2: Sign up and create an account.
 
-Step 3: Search for Yahoo Weather and subscribe in order to use the services and test endpoints to see if it's working or not.
+Step 3: Search for Yahoo Weather and subscribe in order to use the services then click on test endpoints to see if it's working or not.
 
 <img width="632" alt="2 2" src="https://user-images.githubusercontent.com/88324256/185447026-ca089873-632b-4497-94d4-4ae63d15404d.png">
 
