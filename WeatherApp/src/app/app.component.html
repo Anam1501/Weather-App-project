@@ -1,0 +1,67 @@
+<div class="search">
+  <form #form = "ngForm" (submit)="onSubmit()">
+    <input type="text" placeholder="Search City" name="city" [(ngModel)]="cityName">
+  </form>
+</div>
+<div class="container" *ngIf="weatherData">
+  <div class="upper-data">
+    <img src="../assets/sunny_cond.jpg" *ngIf="weatherData.current_observation.condition.temperature >= 90">
+    <img src="../assets/breezy_cond.jpg" *ngIf="weatherData.current_observation.condition.temperature > 50 && weatherData.current_observation.condition.temperature < 90">
+    <img src="../assets/cold_cond.jpg" *ngIf="weatherData.current_observation.condition.temperature <= 50">
+
+    <div class="weather-data">
+      <div class="location">{{weatherData.location.city}}</div>
+      <div class="temperature">{{weatherData.current_observation.condition.temperature | number: '1.0-0'}}°F</div><br>
+      <div class="temptext">{{weatherData.current_observation.condition.text}}</div>
+    </div>
+  </div>
+  <div class="lower-data">
+    <div class="more-info-label">
+      More Information
+    </div>
+
+    <div class="more-info-container">
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/sunrise_icon.png">
+          <span></span>
+        </div>
+        <div class="info-block-value">
+          {{weatherData.current_observation.astronomy.sunrise}}
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/sunset.png">
+          <span></span>
+        </div>
+        <div class="info-block-value">
+          {{weatherData.current_observation.astronomy.sunset}}
+        </div>
+      </div>
+
+       <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/humidity.png">
+          <span></span>
+        </div>
+        <div class="info-block-value">
+          {{weatherData.current_observation.atmosphere.humidity}}%
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/windy (1).png">
+          <span></span>
+        </div>
+        <div class="info-block-value">
+          {{weatherData.current_observation.wind.speed}}km/hr
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
