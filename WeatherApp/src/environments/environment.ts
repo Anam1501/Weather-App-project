@@ -8,7 +8,7 @@ export const environment = {
   XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
   XRapidAPIHostHeaderValue: 'yahoo-weather5.p.rapidapi.com',
   XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
-  XRapidAPIKeyHeaderValue: '04bc696c87msh75c2e212c40c6c8p1d1f8fjsn908ac2dc80bd'
+  XRapidAPIKeyHeaderValue: 'enter your-api-key here'
 };
 
 /*
