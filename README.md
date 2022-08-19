@@ -27,4 +27,4 @@ Step 5: Open environment.ts file from your project folder WeatherApp\src\environ
 
 Step 6: Save all changes and run the server using the following command from terminal: ng serve
 
-Note: In teminal, make sure you are in your Angular project folder i.e WeatherApp else the command will not be executed.
+Note: In terminal, make sure you are in your Angular project folder i.e WeatherApp else the command will not be executed.
