@@ -1,5 +1,5 @@
 # Weather-App
-This is a simple web application to forecast weather of different cities of any country using weather API. User can enter the city name and get the current weather data of that city.
+This is a simple web application to forecast weather of different cities of any country by using Angular Cli and a weather API. User can enter the city name and get the current weather data of that city.
 
 What is an API? 🤷🏼‍♂
 
