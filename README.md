@@ -9,7 +9,7 @@ Know more https://www.redhat.com/en/topics/api/what-are-application-programming-
 
 👩‍🏫 Instructions to use the API services -
 
-Step 1: Enter the url: https://rapidapi.com in your browser.
+Step 1: Open https://rapidapi.com in your browser.
 
 Step 2: Sign up and create an account.
 
