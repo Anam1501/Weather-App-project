@@ -1,30 +1,51 @@
 # Weather-App
-This is a simple web application to forecast weather of different cities of any country by using Angular CLI and a weather API. User can enter the city name and get the current weather data of that city.
 
-What is an API? 🤷🏼‍♂
+**Weather-App** is a simple web application that allows users to forecast the weather in different cities worldwide. This application is built using Angular CLI and integrates with a weather API. Users can enter the name of a city and retrieve current weather data for that location. If you're new to APIs, don't worry; we'll guide you through the setup process.
 
-API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software.
+## What is an API?
 
-Know more https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces
+API stands for Application Programming Interface, which is a set of definitions and protocols for building and integrating application software. If you'd like to learn more about APIs, you can check out this [link](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces).
 
-👩‍🏫 Instructions to use the API services -
+## How to Use the Weather API Services
 
-Step 1: Open https://rapidapi.com in your browser.
+Follow these step-by-step instructions to set up and use the Weather-App with your own API key:
 
-Step 2: Sign up and create an account.
+### Step 1: Open RapidAPI in your browser
 
-Step 3: Search for Yahoo Weather and subscribe in order to use the services then click on test endpoints to check if it's working or not.
+Visit [https://rapidapi.com](https://rapidapi.com) in your web browser.
 
-<img width="632" alt="2 2" src="https://user-images.githubusercontent.com/88324256/185447026-ca089873-632b-4497-94d4-4ae63d15404d.png">
+### Step 2: Sign up and create an account
 
-Step 4: Get your own api key.
+If you don't already have a RapidAPI account, sign up and create one.
 
-<img width="313" alt="4" src="https://user-images.githubusercontent.com/88324256/185449018-494a0a50-4cad-4e23-88f3-006818da0a2b.png">
+### Step 3: Search for Yahoo Weather
 
-Step 5: Open environment.ts file from your project folder WeatherApp\src\environments and paste your-api-key 
+Search for "Yahoo Weather" within RapidAPI and subscribe to it to access its services. After subscribing, click on "Test Endpoints" to ensure that the API is working as expected.
 
-<img width="711" alt="ts" src="https://user-images.githubusercontent.com/88324256/185450681-44a31a1c-5c0f-408d-bd26-85dbf2bee648.png">
+![Step 3 Screenshot](https://user-images.githubusercontent.com/88324256/185447026-ca089873-632b-4497-94d4-4ae63d15404d.png)
 
-Step 6: Save all changes and run the server using the following command from terminal: ng serve
+### Step 4: Get your own API key
 
-Note: In terminal, make sure you are in your Angular project folder i.e WeatherApp else the command will not be executed.
+You will receive your API key after subscribing to the Yahoo Weather API. Make sure to keep it secure and don't share it with others.
+
+![Step 4 Screenshot](https://user-images.githubusercontent.com/88324256/185449018-494a0a50-4cad-4e23-88f3-006818da0a2b.png)
+
+### Step 5: Configure your API key
+
+Open the `environment.ts` file from your project folder located at `WeatherApp/src/environments`. Paste your API key into this file to configure the application to use your key.
+
+![Step 5 Screenshot](https://user-images.githubusercontent.com/88324256/185450681-44a31a1c-5c0f-408d-bd26-85dbf2bee648.png)
+
+### Step 6: Save and run the server
+
+Save all the changes you made to the configuration file. Now, open your terminal, ensure that you're in your Angular project folder (i.e., WeatherApp), and execute the following command to start the server:
+
+```
+ng serve
+```
+
+This will launch your Weather-App, and you can access it in your web browser.
+
+Note: Make sure you're in the correct directory (WeatherApp) in the terminal when running the `ng serve` command.
+
+Now you have successfully set up and configured your Weather-App with the Yahoo Weather API. Users can enter city names and receive current weather data. Happy forecasting! 🌦️🌧️🌞
